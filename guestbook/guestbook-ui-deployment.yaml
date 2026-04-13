@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook-ui
-        image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+        image: image: registry.k8s.io/e2e-test-images/agnhost:2.45
         ports:
         - containerPort: 80
