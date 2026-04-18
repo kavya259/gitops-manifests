@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook-ui
-        image: kavyagitopsacr.azurecr.io/kavya-app:7d169be
+        image: kavyagitopsacr.azurecr.io/kavya-app:bab9cd5a275628bec59704245e630bbdf1769afc
         ports:
         - containerPort: 80
